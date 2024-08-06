@@ -1,0 +1,52 @@
+body {
+  background-color: var(--main-color);
+  height: 100vh;
+}
+
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#quote-box {
+  font-family: sans-serif;
+  font-size: 25px;
+  background-color: white;
+  color: var(--main-color);
+  width: 400px;
+  padding: 50px;
+  display: flex;
+  flex: 0 1 auto;  
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+#text {
+  width: 100%;
+}
+#author {
+  align-self: flex-end;
+  justify-content: right;
+  padding: 20px 0 20px 0;
+}
+
+#element-bar {
+  display: flex;
+  justify-content: space-between
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+button {
+  background-color: var(--main-color);
+  color: white;
+  font-size: 15px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
